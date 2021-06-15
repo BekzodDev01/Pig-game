@@ -147,7 +147,31 @@ main {
 .btn:focus {
   outline: none;
 }
+.finalScore{
+  color: #555;
+  position: absolute;
+  top: 520px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-family: 'Lato';
+  width: 160px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+}
+ .finalScore:focus{
+  outline: none ;
 
+ }
+ #dice1{
+   top: 120px;
+
+ }
+ #dice2{
+   top: 250px;
+ }
 .dice {
   position: absolute;
   left: 50%;
